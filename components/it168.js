@@ -24,7 +24,6 @@ export default class pconline extends React.Component {
     const {url,price,desc,title,img,采集时间}=this.props.data;
     return (
       <div>
-        <h4>IT168</h4>
         <a href={url} target="_blank">
         <img src={img} className="thumb"/>
         <dl>
@@ -33,10 +32,12 @@ export default class pconline extends React.Component {
         </dl>
         </a>
         <table className="table table-striped table-bordered">
+        <tbody>
         <tr>
           <td>{采集时间}</td>
           <td>{price}</td>
         </tr>
+        </tbody>
         </table>
       </div>
     );

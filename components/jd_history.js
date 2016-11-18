@@ -24,13 +24,14 @@ export default class pconline extends React.Component {
     const h=JSON.parse(history)
     return (
       <div>
-        <h4>京东历史价格</h4>
         <a href={url} target="_blank">
         <img src={img} className="thumb"/>
         <dl> <dt>{title}</dt> </dl>
         </a>
         <table className="table table-striped table-bordered">
+        <tbody>
         {h.map(this.showHistory)}
+        </tbody>
         </table>
       </div>
     );

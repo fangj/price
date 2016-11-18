@@ -37,7 +37,7 @@ export default class PricePage extends React.Component {
     const {jd,sn,pconline,it168,jd_history} =this.state;
     return (
       <div className="container">
-      <Search/>
+      <div style={{padding:"10px 0"}}> <Search/> </div>
       <Tabs defaultActiveKey={1} id="uncontrolled-tab-example">
       <Tab eventKey={1} title="京东历史">
       <div className="row">
