@@ -19,6 +19,7 @@
   "homepage": "https://github.com/fangj/report#readme",
   "dependencies": {
     "classnames": "^2.2.5",
+    "frisbee": "^1.1.5",
     "gitbook-plugin-fancybox": "^3.0.0",
     "moment": "^2.15.2",
     "ramda": "^0.22.1",
