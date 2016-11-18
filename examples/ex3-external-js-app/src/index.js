@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Obox from './obox';
+import PricePage from '../../../components/price_page';
 
-ReactDOM.render(<Obox checked={false}/>, document.getElementById('root'));
+ReactDOM.render(<PricePage />, document.getElementById('root'));

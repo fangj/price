@@ -8,10 +8,6 @@ import JdHistory from '../components/jd_history'
 import api from "../api/api";
 import {Tabs,Tab} from 'react-bootstrap';
 export default class PricePage extends React.Component {
-  static propTypes = {
-    name: React.PropTypes.string,
-  };
-
   constructor(props) {
     super(props);
     this.onSearch=this.onSearch.bind(this)

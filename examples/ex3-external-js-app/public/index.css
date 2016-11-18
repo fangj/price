@@ -1,4 +1,4 @@
-.horse {
-  font-size: 100px;
-  color: darkblue;
+.thumb{
+  max-width: 200px;
+  max-height: 200px;
 }
